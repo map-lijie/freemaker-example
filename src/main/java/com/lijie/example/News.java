@@ -28,6 +28,10 @@ public class News extends HttpServlet {
 	        //设置编码格式与MIME类型
 	        response.setContentType("text/html; charset=UTF-8");
 	        
+	        
+	        
+	        
+	        
 	        //首页新闻列表路径
 	        String indexPath=request.getServletContext().getRealPath("/index.html");
 	        System.out.println("indexPath=="+indexPath);
